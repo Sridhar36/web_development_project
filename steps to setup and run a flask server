@@ -1,0 +1,24 @@
+1. create a venv (i.e., new project with separate venv)
+
+to create a new virtual env:
+python -m venv venv - to create a new virtual env
+
+second venv is folder name:
+py -3 -m venv webserver
+
+
+2. create the python script.
+
+3. run using
+
+set FLASK_APP= servername.py
+flask run
+
+to run in dev mode so that changes will reflect as we make
+
+set FLASK_ENV=development
+flask run
+
+
+4. to add a fevicon :
+<link rel="shortcut icon" href="{{ url_for('static', filename='covid.ico') }}">

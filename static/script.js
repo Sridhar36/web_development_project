@@ -1,0 +1,1 @@
+console.log('hiiii') # like writing print
