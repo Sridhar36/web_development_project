@@ -1,0 +1,28 @@
+DB:
+
+theree are two types of data bases
+
+relations databases - RDMS
+
+relational data base willl follow a set os schema and contains tables that are related to on other with some common colomns etc..
+
+eh: IN project we have client, subclient, VNC, VLAN tables which are related to each other
+
+non relational - will not have schemas or relations.
+
+
+----------
+
+Python anywhere - one web app for free
+
+we need to load our files to Python anywhere computers
+
+
+1. we have to have the code on github
+2. create a repo
+3. copy only the required files like the actual code only to the git hub and not the libraries.
+4. for libraries -
+	pip freeze req.txt
+this command will create a text file mentioning all the mandatory libraries that are required to run the project and the versions of it.
+
+So we can use same file instead to upload on python everywhere.  So, Python anywhere will install all these requirements with required versions, by checking the requirements file.
