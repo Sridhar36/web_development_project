@@ -1,5 +1,3 @@
-DB:
-
 theree are two types of data bases
 
 relations databases - RDMS
@@ -22,7 +20,23 @@ we need to load our files to Python anywhere computers
 2. create a repo
 3. copy only the required files like the actual code only to the git hub and not the libraries.
 4. for libraries -
-	pip freeze > req.txt
+	pip freeze req.txt
 this command will create a text file mentioning all the mandatory libraries that are required to run the project and the versions of it.
 
 So we can use same file instead to upload on python everywhere.  So, Python anywhere will install all these requirements with required versions, by checking the requirements file.
+
+---------
+on Python Anywhere:
+
+1. clone repo -
+-open bash from dashboard > it opens a linux terminal
+- now clone using this command
+git clone <https link of repo>
+
+2. do an ls to see if the repo is present or you can even check files from dashboard.
+
+3. You can access one free web app..
+so click on web app.
+- select the frameworks and all manually, i.e do the manual setup
+
+
