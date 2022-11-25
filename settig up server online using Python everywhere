@@ -39,4 +39,16 @@ git clone <https link of repo>
 so click on web app.
 - select the frameworks and all manually, i.e do the manual setup
 
+------------------------
+
+from dashboard > bash
+
+to install python venv flask
+1. mkvirtualenv --python=/usr/bin/python3.6 my-virtualenv  # use whichever python version you prefer
+2. pip install flask
+
+you have to see this "(my-virtualenv) 14:28" which means you are currently inside my-virtualenv which is the name you have given to your virtual env. Else hit this command "workon my-virtualenv"
+
+3. pip install -r requirements.txt  > to install all the required libraries.
+
 
