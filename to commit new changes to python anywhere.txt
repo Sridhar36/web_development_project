@@ -1,0 +1,8 @@
+1. make changes from local
+2. push changes to git hub
+3. open bash in python anywhere
+4. do ls to see available folders
+5. cd portfolio to get into the portfolio folder which is our repo
+6. do "workon my-virtual-env"   : to work on current venv
+7. git remote -v : to see the connected git repos
+8. git pull
